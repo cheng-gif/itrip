@@ -1,0 +1,11 @@
+cn\itrip\trade\controller\AliPaymentController.class
+cn\itrip\trade\controller\WxPaymentController.class
+cn\itrip\trade\config\AlipayConfig.class
+cn\itrip\trade\wx\WXPayRequest.class
+cn\itrip\trade\service\OrderService.class
+cn\itrip\trade\service\OrderServiceImpl.class
+cn\itrip\trade\config\WXPayConfig.class
+cn\itrip\trade\controller\SwaggerConfig.class
+cn\itrip\trade\wx\WXPayConstants$SignType.class
+cn\itrip\trade\wx\WXPayConstants.class
+cn\itrip\trade\wx\WXPayUtil.class

@@ -1,0 +1,10 @@
+cn\itrip\controller\HotelListController.class
+cn\itrip\dao\SolrParam.class
+cn\itrip\dao\Param.class
+cn\itrip\service\SearchHotelService.class
+cn\itrip\controller\SwaggerConfig.class
+cn\itrip\dao\Param$OPERATOR.class
+cn\itrip\dao\BaseQuery.class
+cn\itrip\service\SearchHotelServiceImpl.class
+cn\itrip\beans\vo\hotel\ItripHotelVO.class
+cn\itrip\Test.class

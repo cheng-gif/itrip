@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:p="http://www.springframework.org/schema/p" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+                http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+                http://www.springframework.org/schema/context
+                http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 微信手机网站支付 -->
+    <bean class="cn.itrip.trade.config.WXPayConfig" id="wxPayConfig">
+        <property name="appID" value="wxab8acb865bb1637e"/>
+        <property name="mchID" value="11473623"/>
+        <property name="key" value="2ab9071b06b9f739b950ddb41db2690d"/>
+        <property name="notifyUrl" value="http://wek4yd.natappfree.cc/trade/api/wxpay/notify"/>
+        <property name="successUrl" value="http://192.168.204.128:80/index.html#/orderpaystate?orderNo=%s&amp;id=%s"/>
+        <property name="failUrl" value="http://192.168.204.128:80/index.html#/orderpaystate?orderNo=%s&amp;id=%s&amp;state=0"/>
+    </bean>
+
+</beans>

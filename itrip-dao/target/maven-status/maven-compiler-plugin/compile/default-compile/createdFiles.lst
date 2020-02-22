@@ -1,0 +1,16 @@
+cn\itrip\dao\hotel\ItripHotelMapper.class
+cn\itrip\dao\labeldic\ItripLabelDicMapper.class
+cn\itrip\dao\areadic\ItripAreaDicMapper.class
+cn\itrip\dao\hoteltradingarea\ItripHotelTradingAreaMapper.class
+cn\itrip\dao\productstore\ItripProductStoreMapper.class
+cn\itrip\dao\comment\ItripCommentMapper.class
+cn\itrip\dao\hotelorder\ItripHotelOrderMapper.class
+cn\itrip\dao\user\ItripUserMapper.class
+cn\itrip\dao\hotelroom\ItripHotelRoomMapper.class
+cn\itrip\dao\image\ItripImageMapper.class
+cn\itrip\dao\userlinkuser\ItripUserLinkUserMapper.class
+cn\itrip\dao\hotelfeature\ItripHotelFeatureMapper.class
+cn\itrip\dao\hoteltempstore\ItripHotelTempStoreMapper.class
+cn\itrip\dao\orderlinkuser\ItripOrderLinkUserMapper.class
+cn\itrip\dao\hotelextendproperty\ItripHotelExtendPropertyMapper.class
+cn\itrip\dao\tradeends\ItripTradeEndsMapper.class
