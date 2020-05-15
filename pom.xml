@@ -24,7 +24,7 @@
         <sources.plugin.verion>2.4</sources.plugin.verion>
         <cas.client.core.version>3.4.1</cas.client.core.version>
         <version.jackson>2.4.4</version.jackson>
-        <jackson.verson>2.8.7</jackson.verson>
+        <jackson.verson>2.11.0</jackson.verson>
     </properties>
 
     <dependencies>
